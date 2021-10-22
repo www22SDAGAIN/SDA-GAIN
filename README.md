@@ -1,5 +1,5 @@
 # Spatial-attention and Demographic-augmented Generative Adversarial Imputation Network
-The source code for Spatial-attention and Demographic-augmented Generative Adversarial Imputation Network for Population Health Data Reconstruction   
+The source code for Spatial-attention and Demographic-augmented Generative Adversarial Imputation Network for Online Population Health Data Reconstruction   
 Thank you for your interest in our work, we have uploaded the code for all models here.
 
 ## Requirements
