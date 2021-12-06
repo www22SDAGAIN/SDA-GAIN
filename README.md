@@ -5,9 +5,8 @@
 
 The experimental results at low missing rates (40% missing) are shown below. From the results we can see that the advantage of SDA-GAIN is reduced but still as good as other baseline methods.
 
-<img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/missingrate40_RMSE.png" width="480" height="360"/><br/>
-
-<img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/missingrate40_MAPE.png" width="480" height="360"/><br/>
+<img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/missingrate40_RMSE.png" width="240" height="180"/><br/>
+<img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/missingrate40_MAPE.png" width="440" /><br/>
 
 
 We have experimented with the adjacent wards missing pattern for Cancer in Figure 1, with the following results. The results show that our model still works best.
