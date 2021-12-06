@@ -1,24 +1,23 @@
 # Spatial-attention and Demographic-augmented Generative Adversarial Imputation Network
 
 ## Update: Experimental results in rebuttal
-1. About data missing rates and missing patterns
+### 1. About data missing rates and missing patterns
 
 The experimental results at low missing rates (25% missing) are shown below. From the results we can see that the advantage of SDA-GAIN is reduced but still as good as other baseline methods.
-<img src="https://github.com/WoodScene/Paper_pictures/blob/main/KDD2021/UK_RMSE.png" width="400" height="360"/><br/>
-<img src="https://github.com/WoodScene/Paper_pictures/blob/main/KDD2021/UK_RMSE.png" width="400" height="360"/><br/>
+
 
 We have experimented with the adjacent wards missing pattern for Cancer in Figure 1, with the following results. The results show that our model still works best
-<img src="https://github.com/WoodScene/Paper_pictures/blob/main/KDD2021/UK_RMSE.png" width="400" height="360"/><br/>
-<img src="https://github.com/WoodScene/Paper_pictures/blob/main/KDD2021/UK_RMSE.png" width="400" height="360"/><br/>
 
-5. Experimental supplement
-* new baselines:
+### 5. Experimental supplement
+* new baselines: demographic-based linear regression, demographic-based spatial average/mean,  and method in quote 5 (CPH). The results of the experiment were as follows.
+* new ablation experiment SDA-GAIN3_ : Remove demographic data from the model. And the results show that the improvement comes both from the model architecture and the additional data access.
+* experiments with other spatially structured dataset: US-Hypertension dataset which has a larger spatial granularity (https://www.cdc.gov/500cities/). And our model still performed consistently with the London dataset.
 
-(1)	demographic-based linear regression
+### 7. Discussion of other related work 
+Here we have supplemented the experimental results of the [2] [3] method mentioned by R4. As can be seen from the results, our method still gives the best completion results.
 
-(2) demographic-based spatial average/mean
 
-(3) method in quote [5] (CPH)
+
 
 ------------------------------------------------------------------------------------------------------------------------
 The source code for Spatial-attention and Demographic-augmented Generative Adversarial Imputation Network for Online Population Health Data Reconstruction   
