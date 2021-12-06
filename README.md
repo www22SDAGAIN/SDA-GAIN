@@ -9,6 +9,7 @@ The experimental results at low missing rates (40% missing) are shown below. Fro
 <img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/missingrate40_MAPE.png" width="480" /><br/>
 
 We have experimented with the adjacent wards missing pattern for Cancer in Figure 1, with the following results. The results show that our model still works best.
+
 <img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/London_RMSE.png" width="480" /><br/>
 <img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/London_MAPE.png" width="480" /><br/>
 
