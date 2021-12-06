@@ -3,7 +3,7 @@
 ## Update: Experimental results in rebuttal
 ### 1. About data missing rates and missing patterns
 
-The experimental results at low missing rates (40% missing) are shown below. From the results we can see that the advantage of SDA-GAIN is reduced but still as good as other baseline methods.
+The experimental results at low missing rates (40% missing) are shown below. It is worth noting that 30% of the original data is missing and we need at least 10% of the data to verify the effect of the completions. So the minimum missing rate that can be set for the experiment is 40%. From the results we can see that the advantage of SDA-GAIN is reduced but still as good as other baseline methods.
 
 <img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/missingrate40_RMSE.png" width="480" /><br/>
 <img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/missingrate40_MAPE.png" width="480" /><br/>
@@ -14,7 +14,7 @@ We have experimented with the adjacent wards missing pattern for Cancer in Figur
 <img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/London_MAPE.png" width="480" /><br/>
 
 ### 5. Experimental supplement
-* new baselines: demographic-based linear regression, demographic-based spatial average/mean,  and method in quote 5 (CPH). The results of the experiment were as follows.
+* new baselines: demographic-based linear regression, demographic-based spatial average/mean,  and method in quote 5 (CPH). The results of the experiment for CHD were as follows.
 
 <img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/new_baseline_RMSE.png" width="480" /><br/>
 <img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/new_baseline_MAPE.png" width="480" /><br/>
@@ -31,7 +31,7 @@ We have experimented with the adjacent wards missing pattern for Cancer in Figur
 <img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/US_MAPE.png" width="480" height="360"/><br/>
 
 ### 7. Discussion of other related work 
-Here we have supplemented the experimental results of the [2] [3] method mentioned by R4. As can be seen from the results, our method still gives the best completion results.
+Here we have supplemented the experimental results for CHD of the [2] [3] method mentioned by R4. As can be seen from the results, our method still gives the best completion results.
 
 <img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/related_work_RMSE.png" width="480" /><br/>
 <img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/related_work_MAPE.png" width="480" /><br/>
