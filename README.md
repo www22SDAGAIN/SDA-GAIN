@@ -20,6 +20,10 @@ We have experimented with the adjacent wards missing pattern for Cancer in Figur
 <img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/new_baseline_MAPE.png" width="480" /><br/>
 
 * new ablation experiment SDA-GAIN3_ : Remove demographic data from the model. And the results show that the improvement comes both from the model architecture and the additional data access.
+
+<img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/ablation_experiment_RMSE.png" width="480" /><br/>
+<img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/ablation_experiment_MAPE.png" width="480" /><br/>
+
 * experiments with other spatially structured dataset: US-Hypertension dataset which has a larger spatial granularity (https://www.cdc.gov/500cities/). And our model still performed consistently with the London dataset.
 
 <img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/US_RMSE.png" width="480" height="360"/><br/>
