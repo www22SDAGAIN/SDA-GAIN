@@ -1,4 +1,23 @@
 # Spatial-attention and Demographic-augmented Generative Adversarial Imputation Network
+
+## Update: Experimental results in rebuttal
+1. About data missing rates and missing patterns
+
+The experimental results at low missing rates (25% missing) are shown below. From the results we can see that the advantage of SDA-GAIN is reduced but still as good as other baseline methods.
+<img src="https://github.com/WoodScene/Paper_pictures/blob/main/KDD2021/UK_RMSE.png" width="480" height="360"/><br/>
+<img src="https://github.com/WoodScene/Paper_pictures/blob/main/KDD2021/UK_RMSE.png" width="480" height="360"/><br/>
+
+We have experimented with the adjacent wards missing pattern for Cancer in Figure 1, with the following results. The results show that our model still works best
+<img src="https://github.com/WoodScene/Paper_pictures/blob/main/KDD2021/UK_RMSE.png" width="480" height="360"/><br/>
+<img src="https://github.com/WoodScene/Paper_pictures/blob/main/KDD2021/UK_RMSE.png" width="480" height="360"/><br/>
+
+5. Experimental supplement
+* new baselines:
+(1)	demographic-based linear regression
+(2) demographic-based spatial average/mean
+(3) method in quote [5] (CPH)
+
+------------------------------------------------------------------------------------------------------------------------
 The source code for Spatial-attention and Demographic-augmented Generative Adversarial Imputation Network for Online Population Health Data Reconstruction   
 Thank you for your interest in our work, we have uploaded the code for all models here.
 
