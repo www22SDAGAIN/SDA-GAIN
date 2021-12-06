@@ -15,6 +15,10 @@ We have experimented with the adjacent wards missing pattern for Cancer in Figur
 
 ### 5. Experimental supplement
 * new baselines: demographic-based linear regression, demographic-based spatial average/mean,  and method in quote 5 (CPH). The results of the experiment were as follows.
+
+<img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/new_baseline_RMSE.png" width="480" /><br/>
+<img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/new_baseline_MAPE.png" width="480" /><br/>
+
 * new ablation experiment SDA-GAIN3_ : Remove demographic data from the model. And the results show that the improvement comes both from the model architecture and the additional data access.
 * experiments with other spatially structured dataset: US-Hypertension dataset which has a larger spatial granularity (https://www.cdc.gov/500cities/). And our model still performed consistently with the London dataset.
 
@@ -25,7 +29,8 @@ We have experimented with the adjacent wards missing pattern for Cancer in Figur
 ### 7. Discussion of other related work 
 Here we have supplemented the experimental results of the [2] [3] method mentioned by R4. As can be seen from the results, our method still gives the best completion results.
 
-
+<img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/related_work_RMSE.png" width="480" /><br/>
+<img src="https://github.com/www22SDAGAIN/Paper_pictures/blob/main/related_work_MAPE.png" width="480" /><br/>
 
 
 ------------------------------------------------------------------------------------------------------------------------
